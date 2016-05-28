@@ -1,0 +1,51 @@
+
+
+/**********Mobile Devices xs(extra small) ********/
+@media (max-width:767px){
+    col-xs-12 
+}
+   
+
+/********** Tablet Devices s(small) **********/
+@media  (min-width: 768px) and (max-width: 991px) {
+  col-s-12 
+}
+
+/********** Desktop Devices md & lg (medium & large) **********/
+@media (min-width: 992px) {
+   col-md-12 col-lg-12
+}
+
+/***************NavigationBar***************/
+.navbar-nav{
+    margin: 0px 0px;
+   
+}
+.navbar-collapse{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.mobile-menu{
+    
+    background-color: #CFE5E1;
+    
+    
+}
+.big-navbar-header{
+     background-color: #19AFBF;
+}
+.navbar-header{
+     background-color: #19AFBF;
+}
+
+/***************The Body***************/
+.food-container{
+    background-color: #19AFBF;
+    width:96% ;
+    margin-right: 2% ;
+    margin-left:2%!important;
+    padding: 50px;   
+}
+h1{
+    margin-bottom: 1em;
+}
